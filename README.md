@@ -1,0 +1,2 @@
+# Portfolio-Optimization---Efficient-Frontier-CAL--Monte-Carlo-Simulation
+Portfolio optimization project applying Modern Portfolio Theory to five NSE large-cap stocks. Built a constrained mean–variance model (10–40% bounds) to maximize Sharpe Ratio, constructed the Efficient Frontier &amp; CAL, and ran 10,000 Monte Carlo simulations to estimate 50-day 95% VaR. Demonstrates quantitative risk modeling using Python and Excel..
