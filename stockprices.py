@@ -15,7 +15,7 @@ for name, ticker in stocks.items():
 
     data = yf.download(ticker, start="2004-01-01", auto_adjust=False)
 
-    print(data.columns)  # to check columns
+    print(data.columns)  
 
     if isinstance(data.columns, pd.MultiIndex):
         data.columns = data.columns.get_level_values(0)
@@ -28,4 +28,5 @@ for name, ticker in stocks.items():
 print(portfolio_data.head())
 
 portfolio_data.to_excel("portfolio_data.xlsx")
+
 
